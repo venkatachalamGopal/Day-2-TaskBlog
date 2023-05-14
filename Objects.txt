@@ -1,0 +1,58 @@
+Question : Write a blog on the Difference between document & window objects ?
+------------------------------------------------------------------------------
+Answer:
+
+The Window object and the Document object are both important objects in web development,
+but they serve different purposes.
+
+The Window object represents the browser window that a web page is loaded into. It is the 
+top-level object in the browser's Document Object Model (DOM) hierarchy, and it provides a 
+global scope for all JavaScript code running within the window.
+
+The Window object has many properties and methods that can be used to manipulate the browser 
+window, such as opening new windows, navigating to new URLs, and resizing the window. It also 
+contains information about the user's device, such as screen resolution and browser version.
+
+The Document object, on the other hand, represents the web page that is currently loaded in the 
+browser window. It is a property of the Window object and is accessible through the window.document property.
+
+The Document object has properties and methods that allow you to manipulate the content and 
+structure of the web page, such as modifying the HTML and CSS, adding or removing elements, 
+and querying the page for specific elements.
+
+In summary, the Window object represents the browser window itself and provides a global scope
+for JavaScript code running within it, while the Document object represents the web page that
+is currently loaded in the window and provides methods and properties for manipulating its 
+content and structure.
+
+window objects has its own properties and methods,example:
+
+properties:
+location
+history
+screen
+naviator etc,,,
+
+Methods:
+alert()
+open()
+close()
+prompt()
+confirm() etc,,
+
+Document objects :
+
+All the HTML tags are treated as single object in our Html page.This also has  own properties and methods;
+properties:
+title
+body
+images
+links etc,,,
+
+methods:
+document.getElementById()
+document.getElementsByTagName() etc,,,,
+
+
+
+
